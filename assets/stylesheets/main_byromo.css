@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+p {
+    font-size: 45px;
+}
+
+.imagen1 {
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #D9D9D9;
+}
+
+th, td {
+    border: 2px solid #D9D9D9;
+    padding: 8px;
+}
+
+th {
+    font-weight: bold;
+    color: #fff; 
+    background: #2C7261;
+}
+
+.filas-nones {
+    background: #D1E9EA;
+}
+
+tr:nth-child(odd) {
+    background-color: #D1E9EA;
+  }
+  
+tr:nth-child(even) {
+    background-color: #fff;
+  }
+
+caption {
+    font-weight: bold;
+    font-size: 55px;
+    color: #10312B;
+  }
+
+.cell-menos {
+    background-color: #00B050;
+    font-weight: bold;
+}
+
+.cell-mas {
+    background-color: #9F2241;
+    color: #fff;
+}
+
+#titulo_productos {
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(3, 35, 46);
+    text-align: center;
+}
+
+#iframe-center {
+    text-align: center;
+}
+
+#logo-1 {
+    text-align: center;
+}
+
+
+.container {
+    border: 1px solid rgb(187, 153, 95);
+    margin: 1rem;
+}
+
+[data-tab-info] {
+    display: none;
+}
+
+.active[data-tab-info] {
+    display: block;
+}
+
+.tab-content {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background: rgb(234, 223, 206);
+}
+
+.tabs {
+    border-bottom: 1px solid rgb(187, 153, 95);
+    background-color: rgb(3, 35, 46);
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.tabs span {
+    background: rgb(3, 35, 46);
+    padding: 10px;
+    border: 1px solid rgba(187, 153, 95, 0.6);
+}
+
+.tabs span:hover {
+    background: rgb(14, 77, 99);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.fondo-cuerpo {
+    background-image: url("bkg-1.png");
+    background-color: transparent;
+  }
+
+#logo-3 {
+    top: 0%;
+    right: 1%;
+    position: absolute;
+}
+
+#logo-2 {
+    width: 160px;
+}
+
+header {
+    background-color: rgba(205, 183, 129, 1);
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    height: 120px;
+}
+
+#vaso {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+#mezclador {
+    width: 45px;
+}
+
+#metodo-1{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#indicaiones1{
+    font-size: 40px;
+}
+
+svg {
+    margin-top: 30px
+    display: block;
+    max-width: 320px;
+  }
