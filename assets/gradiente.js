@@ -32,7 +32,8 @@ const gradients = {
   bloodAndSand:     ['#c7462d', '#ad3a26', '#902e20', '#70221a', '#4f1613'],
   whiskeyAurora:    ['#f6c96b', '#e1ad55', '#c09041', '#9a6f30', '#704e20'],
   Carajillobis:     ['#e07a4f', '#c85e3f', '#a54834', '#823327', '#5e221b'],
-  Rosita:           ['#f2a07a', '#e48665', '#c96a50', '#a54f3c', '#7d372b']
+  Rosita:           ['#f2a07a', '#e48665', '#c96a50', '#a54f3c', '#7d372b'],
+  coffeeboul:       ['#A33B2D', '#8D3127', '#7E2824', '#782D33', '#511924']
 };
 
 function changeWine(color, span) {
